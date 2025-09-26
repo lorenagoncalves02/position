@@ -12,3 +12,18 @@
     left: 270px;
     top: 80px;
 }
+
+.titulo{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background: #611616;
+    top: 40px;
+    left: 500px;
+}
+
+.subtitulo{
+    position: absolute;
+    
+
+}
