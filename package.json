@@ -1,0 +1,19 @@
+{
+  "name": "position",
+  "version": "1.0.0",
+  "description": "Replicação da página de atualização de cadastro no RH SENAI",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "position",
+    "display",
+    "flex",
+    "figma",
+    "replicação",
+    "cadastro"
+  ],
+  "author": "Lorena",
+  "license": "ISC"
+}
