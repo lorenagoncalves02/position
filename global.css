@@ -4,3 +4,11 @@
     box-sizing: 0;
 }
 
+.container{
+    position: relative;
+    width: 700px;
+    height: 450px;
+    background: #fa9e9e;
+    left: 270px;
+    top: 80px;
+}
