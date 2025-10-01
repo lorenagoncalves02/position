@@ -2,6 +2,8 @@
     margin: 0;
     pad: 0;
     box-sizing: 0;
+    /* width: 0;
+    height: 0; */
 }
 
 body{
@@ -84,11 +86,6 @@ body{
 
 /* .img{
     position: absolute;
-    z-index: 6;
-    width: 50%;
-    height: auto;
-
-    top: 71px;
+    max-width: 100%;
     
-
 } */
