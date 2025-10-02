@@ -8,44 +8,49 @@
 
 body{
     background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     position: relative;
-    width: 700px;
-    height: 440px;
+    width: 1440px;
+    height: 900px;
     background: #ffffff;
-    left: 420px;
-    top: 134px;
-    
 }
 
 .titulo{
     position: absolute;
-    width: 224px;
-    height: 40px;
+    width: 481px;
+    height: 107px;
     z-index: 1;
-    top: 46px;
+    top: 87px;
     right: 28px;
     color: rgb(215, 30, 30);
     text-align: right;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 70px;
+    line-height: 60px;
   
 }
 
 .subtitulo{
+
+    /* background: #d1a0a0; */
+    width: 315px;
+    height: 136px;
     position: absolute;
+    display: flex;
     z-index: 2;
-    top: 125px;
-    right: 28px;
+    top: 227px;
+    left: 1100px;
     text-align: right;
-    font-size: 28px;
+    font-size: 53px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    line-height: 28px;
+    line-height: 56px;
     
 
 }
@@ -53,24 +58,31 @@ body{
 .prazo{
     position: absolute;
     z-index: 3;
-    top: 219px;
+    top: 420px;
     right: 28px;
     text-align: right;
     font-family:sans-serif;
     font-weight:550;
-    font-size: 12.5px;
+    font-size: 23px;
     color: #7c7c7c;
+    width: 356;
+    height: 26;
+    /* background: #cec87e; */
 
 }
 
 .paragrafo{
     position: absolute;
     z-index: 4;
-    top: 218px;
+    top: 415px;
     right: 28px;
     text-align: right;
     font-family:sans-serif;
     color: #a5a5a5;
+    font-size: 27px;
+    width: 536;
+    height: 126;
+    /* background: #8f7ddf; */
 
 }
 
@@ -78,15 +90,18 @@ body{
     position: absolute;
     z-index: 0;
     text-align: right;
-    top: 307px;
+    top: 582px;
     right: 15px;
-    width: 360px;
-    height: 25px;
+    width: 712px;
+    height: 55px;
     background: #c61818;
     color: rgb(255, 255, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    padding-right: 12px;
+    font-size: 24px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
 }
 
@@ -94,8 +109,8 @@ body{
     display: flex;
     position: relative;
     z-index: 5;
-    width: 700px;
-    height: 440px;
+    width: 900px;
+    height: 900px;
 }
 
 /* .icone_um{
