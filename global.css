@@ -96,10 +96,11 @@ body{
     z-index: 5;
     width: 700px;
     height: 440px;
-
-    
-
-
-
-    
 }
+
+/* .icone_um{
+    display: flex;
+    position: relative;
+    z-index: 6;
+    width: 50%;
+} */
