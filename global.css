@@ -113,9 +113,9 @@ body{
     height: 900px;
 }
 
-/* .icone_um{
+.icone_um{
     display: flex;
-    position: relative;
+    position: absolute;
     z-index: 6;
     width: 50%;
-} */
+}
